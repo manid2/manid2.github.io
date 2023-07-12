@@ -33,7 +33,8 @@ jobs:
             ${{ runner.os }}-hugomod-
 
       - name: Build
-        run: hugo
+        run: |
+          hugo mod get -u && hugo
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
