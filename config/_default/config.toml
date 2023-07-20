@@ -16,6 +16,18 @@ canonifyurls = true
   [params.assets]
     favicon = "/images/awesome_author.svg"
 
+  [params.analytics.google]
+    SiteVerificationTag = "dRxlQUCTcreupAiAU9R-WcImzIL5ZkXVFT4PVPDJl6Y"
+
+  [params.analytics.yandex]
+    SiteVerificationTag = "146d77656fc95385"
+
+  [params.analytics.bing]
+    SiteVerificationTag = "F82FFC97299503C8B6340178FE5F1EFA"
+
+  [params.analytics.naver]
+    SiteVerificationTag = "e3b93136c43487a12e31584cf30306a269137968"
+
 [markup]
   [markup.tableOfContents]
     startLevel = 2
