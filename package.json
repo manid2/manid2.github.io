@@ -11,7 +11,7 @@
     "format": "npm run g-fmt",
     "format-check": "npm run g-fmt-check",
     "lint": "npm run m-lint",
-    "test": "npm run lint && npm run m-links-check"
+    "test": "npm run format-check && npm run lint && npm run m-links-check"
   },
   "repository": {
     "type": "git",
