@@ -25,6 +25,10 @@ canonifyurls = true
   yandex = "146d77656fc95385"
   naver = "e3b93136c43487a12e31584cf30306a269137968"
 
+[languages]
+  [languages.en.params]
+    copyright = "© Mani Kumar"
+
 [markup]
   [markup.tableOfContents]
     startLevel = 2
