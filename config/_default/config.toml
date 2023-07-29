@@ -1,32 +1,29 @@
-title = "manid2.github.io"
+title = "Mani Kumar Projects"
 languageCode = "en-us"
+baseurl = "https://manid2.github.io/"
 paginate = 20
 canonifyurls = true
 
 [module]
   [[module.imports]]
-    path = "github.com/adityatelange/hugo-PaperMod"
+    path = "github.com/manid2/hugo-xterm"
 
 [params]
-  keywords = ["Blog", "Portfolio", "PaperMod", "Projects"]
-  author = "Mani Kumar"
-  images = "/images/awesome_author.svg"
+  centerTheme = true
+  favicon = "/images/awesome_author.svg"
   showBreadCrumbs = true
+  toc = true
+  copyrightUserUrl = "https://twitter.com/mani_d2"
+  copyrightUserText = "mani_d2"
 
-  [params.assets]
-    favicon = "/images/awesome_author.svg"
+[params.twitter]
+  creator = "mani_d2"
 
-  [params.analytics.google]
-    SiteVerificationTag = "dRxlQUCTcreupAiAU9R-WcImzIL5ZkXVFT4PVPDJl6Y"
-
-  [params.analytics.yandex]
-    SiteVerificationTag = "146d77656fc95385"
-
-  [params.analytics.bing]
-    SiteVerificationTag = "F82FFC97299503C8B6340178FE5F1EFA"
-
-  [params.analytics.naver]
-    SiteVerificationTag = "e3b93136c43487a12e31584cf30306a269137968"
+[params.site_verification]
+  google = "dRxlQUCTcreupAiAU9R-WcImzIL5ZkXVFT4PVPDJl6Y"
+  bing = "F82FFC97299503C8B6340178FE5F1EFA"
+  yandex = "146d77656fc95385"
+  naver = "e3b93136c43487a12e31584cf30306a269137968"
 
 [markup]
   [markup.tableOfContents]
