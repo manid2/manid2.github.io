@@ -1,9 +1,6 @@
 googleAnalytics = "G-V16S8HM7DW"
 enableGitInfo = true
 
-[params]
-  show_ads = true
-
 [params.git_info]
   host = "github"
   user = "manid2"

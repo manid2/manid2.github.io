@@ -3,8 +3,6 @@ title = "dotfiles"
 description = "Synchronize user configurations."
 +++
 
-{{< ads >}}
-
 This is my collection of `~/dotfiles` which contains bash aliases, ssh, vim,
 nvim and many other software development utilities configurations.
 

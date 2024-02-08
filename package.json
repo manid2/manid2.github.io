@@ -4,18 +4,10 @@
   "description": "Mani Kumar website. https://manid2.github.io/",
   "main": "index.js",
   "scripts": {
-    "g-fmt": "prettier --config '.prettier.json' --write 'layouts/**/*.html'",
-    "g-fmt-check": "prettier --config '.prettier.json' --check 'layouts/**/*.html'",
-    "j-fmt": "prettier --config '.prettier.json' --write 'assets/scripts/*.js'",
-    "j-fmt-check": "prettier --config '.prettier.json' --check 'assets/scripts/*.js'",
-    "j-lint": "eslint 'assets/scripts/*.js'",
-    "j-lint-fix": "eslint --fix 'assets/scripts/*.js'",
     "m-links-check": "linkinator --config '.linkinator.config.json' 'README.md' 'content/**/*.md'",
     "m-lint": "markdownlint --config '.markdownlint.json' 'README.md' 'content/**/*.md'",
-    "format": "npm run g-fmt && npm run j-fmt",
-    "format-check": "npm run g-fmt-check && npm run j-fmt-check",
-    "lint": "npm run m-lint && npm run j-lint",
-    "test": "npm run format-check && npm run lint && npm run m-links-check"
+    "lint": "npm run m-lint",
+    "test": "npm run lint && npm run m-links-check"
   },
   "repository": {
     "type": "git",
