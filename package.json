@@ -1,0 +1,43 @@
+{
+  "name": "manid2.website",
+  "version": "1.0.0",
+  "description": "Mani Kumar website. https://manid2.github.io/",
+  "main": "index.js",
+  "scripts": {
+    "g-fmt": "prettier --config '.prettier.json' --write 'layouts/**/*.html'",
+    "g-fmt-check": "prettier --config '.prettier.json' --check 'layouts/**/*.html'",
+    "m-links-check": "linkinator --config '.linkinator.config.json' 'README.md' 'content/**/*.md'",
+    "m-lint": "markdownlint --config '.markdownlint.json' 'README.md' 'content/**/*.md'",
+    "format": "npm run g-fmt",
+    "format-check": "npm run g-fmt-check",
+    "lint": "npm run m-lint",
+    "test": "npm run format-check && npm run lint && npm run m-links-check"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/manid2/manid2.github.io.git"
+  },
+  "keywords": [
+    "hugo",
+    "manid2",
+    "website"
+  ],
+  "author": "Mani Kumar",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/manid2/manid2.github.io/issues"
+  },
+  "homepage": "https://manid2.github.io/",
+  "devDependencies": {
+    "eslint": "^8.57.1",
+    "eslint-config-prettier": "^8.10.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.31.0",
+    "eslint-plugin-n": "^16.6.2",
+    "eslint-plugin-promise": "^6.6.0",
+    "linkinator": "^4.1.3",
+    "markdownlint-cli": "^0.33.0",
+    "prettier": "^2.8.8",
+    "prettier-plugin-go-template": "^0.0.13"
+  }
+}
